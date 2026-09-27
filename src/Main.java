@@ -3,15 +3,15 @@ import java.io.InputStreamReader;
 
 public class Main {
 
-    // public static InputStreamReader lector = new InputStreamReader(System.in); System.in es como decirle: Lea del teclado
-    // public static BufferedReader entrada = new BufferedReader(lector); Uso el lector como intermediario
+    // 2. public static InputStreamReader lector = new InputStreamReader(System.in); System.in es como decirle: Lea del teclado
+    // 1. public static BufferedReader entrada = new BufferedReader(lector); Uso el lector como intermediario
     // Pero también puedo pasar la construcción del objeto al BufferedReader y borro toda esa primera línea, quedaría así:
 
     public static BufferedReader entrada = new BufferedReader(new InputStreamReader(System.in)); // Uso el lector como intermediario
 
     public static void main (String[] args) {
 
-        // Modelo de un libro
+        // Modelo de un libro - Ejemplo del profe
         // String titulo = "Le Rouge et le Noir";
         // String autor = "Stendhal";
         // String autor = "Stendhal";
@@ -22,7 +22,7 @@ public class Main {
         // sout + TAB
 
         // 1. Construcción del objeto
-        Libro libro1 = new Libro("Cien años de soledad","Gabriel García Márquez", "Novela", (short)1967);
+        Libro libro1 = new Libro("Cien años de soledad","Gabriel García Márquez", "Novela", (short)1967); // hay que modificarlo una vez que creamos nuestro constructor.
 
         // 2. Asignación de los atributos del objeto
         // Una vez que se copiar arribas estas 4 lineas de abajo.
